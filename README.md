@@ -3,10 +3,13 @@
 
 ### Clone the Repo
 In anaconda prompt/terminal
+
 git clone https://github.com/sanjay2721/heart-disease-prediction-xai.git
+
 cd heart-disease-prediction-xai
 ## Set Up the Environment
 conda env create -f environment.yml
+
 conda activate xai_env
 
 ## Work on the Project
@@ -21,5 +24,7 @@ Add reports in reports/
 # If a teammate only has requirements.txt, and no environment.yml, they can still set up the project like this:
  Setup Using requirements.txt (with Anaconda):
 conda create --name xai_env python=3.11
+
 conda activate xai_env
+
 pip install -r requirements.txt
