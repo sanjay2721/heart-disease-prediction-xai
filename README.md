@@ -28,3 +28,29 @@ conda create --name xai_env python=3.11
 conda activate xai_env
 
 pip install -r requirements.txt
+
+
+# How to Collaborate Using Git
+Basic Git workflow for each teammate:
+
+✅ Pull latest changes:
+
+bash
+
+git pull origin main
+
+✅ Add and commit changes:
+
+bash
+
+git add .
+
+git commit -m "Your message here"
+
+✅ Push to GitHub:
+
+bash
+
+git push origin main
+
+🔁 Repeat this workflow whenever changes are made.
